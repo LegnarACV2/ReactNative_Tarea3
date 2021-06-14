@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "react-native-tarea3",
-    "slug": "react-native-tarea3",
+    "name": "LegnarApss_01",
+    "slug": "legnarapss_01",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -27,6 +27,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "Tarea 3 Introducción al desarrollo de aplicaciones Móviles ITLA.\nLa aplicación contiene una pagina principal con Datos del creador, un Menu y distintas vistas entre las cuales navegar."
   }
 }
