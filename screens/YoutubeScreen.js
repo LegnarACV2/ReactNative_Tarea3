@@ -1,6 +1,5 @@
-import React, { useState, useCallback, useRef, Component } from 'react';
-import {View, Text, Button, StyleSheet, Alert} from 'react-native';
-import { WebView } from 'react-native-webview';
+import React, { useState, useCallback } from 'react';
+import {View, Button, StyleSheet, Alert} from 'react-native';
 import YoutubePlayer from "react-native-youtube-iframe";
 
 export default function App() {

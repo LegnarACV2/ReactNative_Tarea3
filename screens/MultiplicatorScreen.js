@@ -1,8 +1,5 @@
 import React, {useState} from 'react';
 import {View, Text, Button, StyleSheet, TextInput,  Modal} from 'react-native';
-import TextField from '@material-ui/core/TextField';
-import {formatMs, makeStyles} from '@material-ui/core/styles'
-import { Rowing } from '@material-ui/icons';
 
 const MultiplicatorScreen = ({navigation}) => {
 
@@ -10,20 +7,7 @@ const MultiplicatorScreen = ({navigation}) => {
   const [isModalVisible, setModalVisible] = useState(true);
   const [isFocus, setFocus] = useState(false);
 
-  let inputOnChangeTextNum = (e) => {
-    setNumValue(e)
-  }
-
   var MyElements = [];
-
-  const Multiplicar = (num) =>{
-    for(let i = 1; i <= 13; i++){
-      MyElements.push(
-        <Text>Rangel</Text>,
-      );
-      console.log(num * i);
-    }
-  }
 
   for(let i = 1; i <= 13; i++){
     console.log(5 * i);

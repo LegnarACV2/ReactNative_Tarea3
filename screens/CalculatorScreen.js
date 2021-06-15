@@ -1,9 +1,5 @@
-import { setStatusBarNetworkActivityIndicatorVisible } from 'expo-status-bar';
-import React, {createRef, useState} from 'react';
-import {View, Text, Button, StyleSheet, TextInput} from 'react-native';
-import {Input} from 'react-native-elements';
-import {TextField} from '@material-ui/core';
-import { block } from 'react-native-reanimated';
+import React, { useState} from 'react';
+import {View, Text, StyleSheet, TextInput} from 'react-native';
 
 const CalculatorScreen = ({navigation}) => {
   const [num1Value, setNum1Value] = useState(0);

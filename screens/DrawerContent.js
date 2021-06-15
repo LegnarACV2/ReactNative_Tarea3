@@ -4,8 +4,6 @@ import {Avatar, Title, Caption, Paragraph, Drawer, Text, TouchableRipple, Switch
 import {DrawerContentScrollView, DrawerItem} from '@react-navigation/drawer';
 import IconF  from 'react-native-vector-icons/MaterialCommunityIcons';
 import Icon  from 'react-native-vector-icons/Ionicons';
-import color from 'color';
-import { ExitToApp } from '@material-ui/icons';
 import RNExitApp from 'react-native-exit-app';
 
 export function DrawerContent(props){
@@ -15,14 +13,6 @@ export function DrawerContent(props){
     const toggleTheme = () =>{
         setIsDarkTheme(!isDarkTheme);
     }
-
-    const componentWillMount = () => {
-        BackHandler.addEventListener('hardwareBackPress', this.backPressed);
-     }
-     
-    const componentWillUnmount = () => {
-        BackHandler.removeEventListener('hardwareBackPress', this.backPressed);
-     }
      
     const backPressed = () => {
        Alert.alert(
